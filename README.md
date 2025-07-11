@@ -54,7 +54,7 @@ This config is ideal for:
 
 - [Betterfox](https://github.com/yokoffing/Betterfox)
 - [arkenfox user.js](https://github.com/arkenfox/user.js)
-- Custom modifications by [@yourusername](https://github.com/yourusername)
+- Custom modifications by [@MKDPrime](https://github.com/MKDPrime)
 
 ---
 
