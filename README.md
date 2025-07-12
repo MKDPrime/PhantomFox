@@ -21,13 +21,14 @@ This repository contains a customized `user.js` file based on [Betterfox](https:
 
 ---
 
-## 📥 How to Use
+## 🛠️ Installation (Briefly)
 
-1. Go to `about:profiles` in Firefox.
-2. Find your active profile and click **“Open Folder”**.
-3. Place the downloaded `user.js` file into that folder.
-4. Close Firefox completely (including from the background).
-5. Reopen Firefox – your custom privacy settings will now be active.
+1. Go to the `about:profiles` page in Firefox
+2. Open the active profile folder
+3. Place the `user.js` file in this folder
+4. Close and reopen Firefox — you're done!
+
+> For a more detailed installation: [📄 INSTALL.md](INSTALL.md)
 
 ---
 
