@@ -42,7 +42,10 @@ PhantomFox/
 
 ## 📜 Lisans ve Atıf
 
-Bu proje [MIT Lisansı](LICENSE) altındadır — kullanabilir, değiştirebilir ve paylaşabilirsiniz.
+## 📜 Lisans
+
+Bu proje **GNU General Public License v3.0** ile lisanslanmıştır.  
+Daha fazla bilgi: https://www.gnu.org/licenses/gpl-3.0.html
 
 🔗 **Orijinal projeler:**
 - Betterfox: https://github.com/yokoffing/Betterfox
