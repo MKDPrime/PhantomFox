@@ -51,7 +51,10 @@ This config is ideal for:
 
 ---
 
-## 🛠️ Credits
+## 🛠️ Licence and Credits
+
+This project is licensed under the **GNU General Public License v3.0**. 
+More information: https://www.gnu.org/licenses/gpl-3.0.html
 
 - [Betterfox](https://github.com/yokoffing/Betterfox)
 - [arkenfox user.js](https://github.com/arkenfox/user.js)
