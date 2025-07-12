@@ -1,6 +1,6 @@
 
-/* PhantomFox: Custom Firefox user.js - Betterfox Base + Extra Privacy */
-/* Last updated: 2025-07-11 */
+/* PhantomFox v1.0.0 - Last updated: 2025-07-11 */
+
 
 /****************************************************************************
  * SECTION: Privacy Enhancements
