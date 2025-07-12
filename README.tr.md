@@ -22,7 +22,7 @@
 3. `user.js` dosyasını bu klasöre yerleştir
 4. Firefox’u kapatıp tekrar aç — işlem tamam!
 
-> Daha ayrıntılı kurulum için: [📄 INSTALL.md](INSTALL.md)
+> Daha ayrıntılı kurulum için: [📄 INSTALL.tr.md](INSTALL.tr.md)
 
 ---
 
