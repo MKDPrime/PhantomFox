@@ -1,85 +1,63 @@
-# 📦 PhantomFox - Firefox `user.js` Installation Guide (All Platforms)
+# 🦊 PhantomFox - Firefox user.js Configuration
 
-This guide explains how to install the **PhantomFox** `user.js` configuration (Betterfox-based with enhanced privacy and Discord WebRTC compatibility) on Windows, macOS, and Linux systems.
-
----
-
-## 🧠 What is `user.js`?
-
-Firefox checks for a file named `user.js` in your profile directory when it starts. If it exists, Firefox applies all the preferences defined in it. This allows full control over Firefox behavior, especially for privacy and performance enhancements.
+**PhantomFox** is a user.js configuration optimized for the Firefox browser. This project is based on Betterfox and inspired by arkenfox. The goal is to combine **high privacy**, **good performance**, and **social media compatibility**.
 
 ---
 
-## 🖥️ Installation Steps
+## 🚀 Features
 
-### 🔹 1. Locate Your Firefox Profile Folder
-
-#### The easiest way (cross-platform):
-
-1. Open Firefox.
-2. Type `about:profiles` in the address bar and hit Enter.
-3. Find the "Root Directory" of your **default profile** and click **“Open Folder”** or **“Show in Finder”/“Open in Files”**.
-4. This is your Firefox profile folder — where `user.js` needs to be placed.
+- WebRTC support for Discord voice/video calls
+- Privacy-focused settings (fingerprinting, cookie blocking)
+- Less tracking, more control
+- YouTube, Reddit, and social media compatibility
+- Full compatibility with Firefox Sync
+- Compatible with all desktop operating systems
 
 ---
 
-### 🔹 2. Add the `user.js` File
+## 🛠️ Installation (In Brief)
 
-1. Download the `user.js` file from your GitHub repository.
-2. Copy and paste the file into your Firefox profile folder.
+1. Go to the `about:profiles` page in Firefox
+2. Open the active profile folder
+3. Place the `user.js` file in this folder
+4. Close and reopen Firefox — you're done!
+
+> For more detailed installation: [📄 INSTALL.md](INSTALL.md)
+
+---
+## 📂 File Structure
+
+```
+PhantomFox/
+├── user.js
+├── README.md (This file)
+├── README.tr.md (Turkish)
+├── INSTALL.md (Installation guide - EN)
+├── INSTALL.tr.md (Installation guide - TR)
+└── CHANGELOG.md (Version history)
+```
 
 ---
 
-### 🔹 3. Restart Firefox
+## 📜 License and Attribution
 
-- Fully close Firefox (make sure it's not running in the background).
-- Reopen Firefox — your custom privacy settings will now be active!
+## 📜 License
 
----
+This project is licensed under the **GNU General Public License v3.0**.
+More information: https://www.gnu.org/licenses/gpl-3.0.html
 
-## 🖱️ Platform-Specific Profile Paths
+🔗 **Original projects:**
+- Betterfox: https://github.com/yokoffing/Betterfox
+- arkenfox: https://github.com/arkenfox/user.js
 
-| Operating System | Profile Folder Location |
-|------------------|-----------------------------|
-| **Windows** | `C:\Users\USERNAME\AppData\Roaming\Mozilla\Firefox\Profiles\xxxx.default-release` |
-| **macOS** | `~/Library/Application Support/Firefox/Profiles/xxxx.default-release` |
-| **Linux** | `~/.mozilla/firefox/xxxx.default-release` |
-
-> Note: Your actual profile folder name will vary (e.g. `abc123.default-release`).
+PhantomFox is built upon these projects. Thanks to all the open-source developers who contributed 🙏
 
 ---
 
-## 🔒 What to Expect After Installation
+## 📧 Contribute
 
-- Stronger privacy, less tracking, and better performance.
-- YouTube, Discord, and social media sites work out of the box.
-- WebRTC is enabled to support Discord voice/video calls.
-- Mozilla telemetry and most trackers are disabled.
+If you have feedback, suggestions for improvements, or bug reports, please open an issue or submit a pull request!
 
 ---
 
-## ❌ Not Supported on Mobile (iOS / Android)
-
-- `user.js` is only supported on **desktop Firefox**.
-- Mobile Firefox apps on iOS/Android do not support `user.js`.
-- For privacy on mobile, use [Firefox Focus](https://apps.apple.com/us/app/firefox-focus-privacy-browser/id1055677337).
-
----
-
-## 📌 Recommended Add-ons
-
-- [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-- [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
-- [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
-
----
-
-## 📎 References
-
-- [Betterfox GitHub](https://github.com/yokoffing/Betterfox)
-- [arkenfox user.js](https://github.com/arkenfox/user.js)
-- [Mozilla Support - Profile Manager](https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles)
-
----
-
-Enjoy a faster and more private browsing experience with PhantomFox 🦊
+Now you can step into a freer internet with PhantomFox! 🦊✨
