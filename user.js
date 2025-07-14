@@ -1,6 +1,5 @@
-
-/* PhantomFox v1.0.0 - Last updated: 2025-07-11 */
-
+/* PhantomFox: Custom Firefox user.js - Betterfox Base + Extra Privacy */
+/* Last updated: 2025-07-11 */
 
 /****************************************************************************
  * SECTION: Privacy Enhancements
@@ -9,7 +8,7 @@
 user_pref("privacy.resistFingerprinting", true);
 user_pref("privacy.firstparty.isolate", true);
 user_pref("network.cookie.cookieBehavior", 1); // Block 3rd party cookies
-user_pref("media.peerconnection.enabled", false); // Disable WebRTC
+user_pref("media.peerconnection.enabled", true); // WebRTC ENABLED for Discord
 
 /****************************************************************************
  * SECTION: Betterfox Base (Performance & Security Enhancements)
@@ -31,7 +30,7 @@ user_pref("browser.ssl_override_behavior", 1);
 user_pref("security.tls.version.min", 3);
 
 /****************************************************************************
- * SECTION: Usability Tweaks for YouTube and Everyday Use
+ * SECTION: Usability Tweaks for YouTube and Social Media
 ****************************************************************************/
 
 user_pref("privacy.clearOnShutdown.history", false);
@@ -41,6 +40,11 @@ user_pref("privacy.sanitize.sanitizeOnShutdown", false);
 user_pref("media.autoplay.default", 1); // Block autoplay
 user_pref("browser.sessionstore.resume_from_crash", true);
 user_pref("browser.startup.page", 1); // Resume previous session
+
+/****************************************************************************
+ * END OF FILE
+****************************************************************************/
+
 
 /****************************************************************************
  * END OF FILE
