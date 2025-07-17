@@ -8,7 +8,7 @@ PhantomFox, Firefox ve türevleri arasında **gizlilik**, **performans** ve **ta
 
 PhantomFox, daha geniş uyumluluk ve esneklik için artık **iki modüler user.js dosyasına** bölünmüştür:
 
-### 🔹 `phantomfox-base.user.js`
+### 🔹 `user.js`
 
 **Temel yapılandırma** dosyası. Gizlilik, güvenlik ve performans ince ayarlarını içerir ve şunlarla uyumludur:
 
@@ -22,7 +22,7 @@ PhantomFox, daha geniş uyumluluk ve esneklik için artık **iki modüler user.j
 
 ---
 
-### 🔸 `phantomfox-extended.user.js`
+### 🔸 `phantomwolf.user.js`
 İleri düzey kullanıcılar için isteğe bağlı geliştirmeler. İçerir:
 
 - Ekstra telemetri engelleme
