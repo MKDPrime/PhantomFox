@@ -8,7 +8,7 @@ All notable changes to **PhantomFox** will be documented in this file.
 ### 🔄 Major Update: Modularization
 
 - Split the configuration into **two files**:
-  - `user.js` → universal privacy/performance core
+  - `phantomfox.user.js` → universal privacy/performance core
   - `phantomwolf.user.js` → optional hardening for LibreWolf, Waterfox, etc.
 - Improved compatibility with Firefox forks
 - Reorganized and cleaned up pref comments for readability
