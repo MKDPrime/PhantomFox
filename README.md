@@ -47,7 +47,7 @@ Optional enhancements for advanced users. Includes:
 
 ## 📌 Version
 
-Current version: `v1.1.1`  
+Current version: `v1.1`  
 Check the [Releases](https://github.com/MKDPrime/PhantomFox/releases) page for changelog and updates.
 
 ---
