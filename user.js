@@ -1,7 +1,7 @@
 // PhantomFox: Base Configuration
 // Last updated: v1.1.1
 
-// 🔒 Privacy Essentials
+// 🔒 For Privacy
 user_pref("privacy.resistFingerprinting", true);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.donottrackheader.enabled", true);
