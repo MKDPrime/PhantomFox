@@ -8,7 +8,7 @@ PhantomFox, Firefox ve türevleri arasında **gizlilik**, **performans** ve **ta
 
 PhantomFox, daha geniş uyumluluk ve esneklik için artık **iki modüler user.js dosyasına** bölünmüştür:
 
-### 🔹 `user.js`
+### 🔹 `phantomfox.user.js`
 
 **Temel yapılandırma** dosyası. Gizlilik, güvenlik ve performans ince ayarlarını içerir ve şunlarla uyumludur:
 
@@ -36,9 +36,9 @@ PhantomFox, daha geniş uyumluluk ve esneklik için artık **iki modüler user.j
 
 ## 🔧 Nasıl Kullanılır
 
-1. `phantomfox-base.user.js` dosyasını indirin
+1. `phantomfox.user.js` dosyasını indirin
 2. Firefox profil dizininize yerleştirin (`user.js` olarak)
-3. *(İsteğe bağlı)* `phantomfox-extended.user.js` dosyasını indirin ve temel yapılandırmanın ardından ekleyin
+3. *(İsteğe bağlı)* `phantomwolf.user.js` dosyasını indirin ve temel yapılandırmanın ardından ekleyin
 4. Firefox'u yeniden başlatın
 
 > Profil klasörünüzü burada bulabilirsiniz:
