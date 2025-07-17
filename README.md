@@ -8,7 +8,7 @@ PhantomFox is a modular `user.js` configuration designed to balance **privacy**,
 
 PhantomFox is now split into **two modular user.js files** for broader compatibility and flexibility:
 
-### 🔹 `user.js`
+### 🔹 `phantomfox.user.js`
 The **core configuration** file. It includes privacy, security, and performance tweaks that are compatible with:
 
 - Firefox
@@ -21,7 +21,7 @@ The **core configuration** file. It includes privacy, security, and performance 
 
 ---
 
-### 🔸 `phantomfox-extended.user.js`
+### 🔸 `phantomwolf.user.js`
 Optional enhancements for advanced users. Includes:
 
 - Extra telemetry blocking
