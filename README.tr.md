@@ -49,7 +49,7 @@ PhantomFox, daha geniş uyumluluk ve esneklik için artık **iki modüler user.j
 
 ## 📌 Sürüm
 
-Mevcut sürüm: `v1.1.1`
+Mevcut sürüm: `v1.1`
 Değişiklik günlüğü ve güncellemeler için [Sürümler](https://github.com/MKDPrime/PhantomFox/releases) sayfasını kontrol edin.
 
 ---
