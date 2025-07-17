@@ -1,64 +1,60 @@
-# 🦊 PhantomFox - Firefox user.js Yapılandırması
+# PhantomFox
 
-**PhantomFox**, Firefox tarayıcısı için optimize edilmiş bir `user.js` yapılandırmasıdır. Bu proje, Betterfox tabanlıdır ve arkenfox'tan esinlenerek geliştirilmiştir. Amaç, **yüksek gizlilik**, **iyi performans** ve **sosyal medya uyumluluğunu** bir araya getirmektir.
-
----
-
-## 🚀 Özellikler
-
-- Discord sesli/görüntülü görüşmeler için WebRTC desteği
-- Gizliliğe odaklı ayarlar (fingerprinting, çerez engelleme)
-- Daha az izlenme, daha fazla kontrol
-- YouTube, Reddit ve sosyal medya uyumluluğu
-- Firefox Sync ile tam uyum
-- Tüm masaüstü işletim sistemleriyle uyumlu
+PhantomFox, Firefox ve türevleri arasında **gizlilik**, **performans** ve **tarayıcılar arası uyumluluk** dengesini sağlamak üzere tasarlanmış modüler bir `user.js` yapılandırmasıdır.
 
 ---
 
-## 🛠️ Kurulum (Kısaca)
+## 🧱 Modüler Yapı
 
-1. Firefox’ta `about:profiles` sayfasına git
-2. Aktif profil klasörünü aç
-3. `user.js` dosyasını bu klasöre yerleştir
-4. Firefox’u kapatıp tekrar aç — işlem tamam!
+PhantomFox, daha geniş uyumluluk ve esneklik için artık **iki modüler user.js dosyasına** bölünmüştür:
 
-> Daha ayrıntılı kurulum için: [📄 INSTALL.tr.md](INSTALL.tr.md)
+### 🔹 `phantomfox-base.user.js`
 
----
+**Temel yapılandırma** dosyası. Gizlilik, güvenlik ve performans ince ayarlarını içerir ve şunlarla uyumludur:
 
-## 📂 Dosya Yapısı
+- Firefox
+- LibreWolf
+- Waterfox
+- Mull
+- Herhangi bir Firefox tabanlı tarayıcı
 
-```
-PhantomFox/
-├── user.js
-├── README.md (İngilizce)
-├── README.tr.md (Bu dosya)
-├── INSTALL.md (Kurulum rehberi - EN)
-├── INSTALL.tr.md (Kurulum rehberi - TR)
-└── CHANGELOG.md (Sürüm geçmişi)
-```
+**Tüm kullanıcılar için önerilir.**
 
 ---
 
-## 📜 Lisans ve Atıf
+### 🔸 `phantomfox-extended.user.js`
+İleri düzey kullanıcılar için isteğe bağlı geliştirmeler. İçerir:
+
+- Ekstra telemetri engelleme
+- Sıkı ağ ve DNS ayarları
+- Deneysel izolasyon ayarları
+
+**Güçlendirilmiş kurulumlar için idealdir (örneğin LibreWolf, Waterfox).**
+⚠️ Site uyumluluğunu biraz azaltabilir.
+
+---
+
+## 🔧 Nasıl Kullanılır
+
+1. `phantomfox-base.user.js` dosyasını indirin
+2. Firefox profil dizininize yerleştirin (`user.js` olarak)
+3. *(İsteğe bağlı)* `phantomfox-extended.user.js` dosyasını indirin ve temel yapılandırmanın ardından ekleyin
+4. Firefox'u yeniden başlatın
+
+> Profil klasörünüzü burada bulabilirsiniz:
+
+> `about:support → Profil Klasörü → Klasörü Aç`
+
+---
+
+## 📌 Sürüm
+
+Mevcut sürüm: `v1.1.0`
+Değişiklik günlüğü ve güncellemeler için [Sürümler](https://github.com/MKDPrime/PhantomFox/releases) sayfasını kontrol edin.
+
+---
 
 ## 📜 Lisans
 
-Bu proje **GNU General Public License v3.0** ile lisanslanmıştır.  
-Daha fazla bilgi: https://www.gnu.org/licenses/gpl-3.0.html
-
-🔗 **Orijinal projeler:**
-- Betterfox: https://github.com/yokoffing/Betterfox
-- arkenfox: https://github.com/arkenfox/user.js
-
-PhantomFox, bu projeleri temel alarak oluşturulmuştur. Emeği geçen tüm açık kaynak geliştiricilere teşekkürler 🙏
-
----
-
-## 📧 Katkıda Bulun
-
-Görüşlerin, iyileştirme önerilerin veya hata bildirimlerin varsa `issue` açabilir ya da pull request gönderebilirsin!
-
----
-
-Sen de artık PhantomFox ile daha özgür bir internete adım atabilirsin! 🦊✨
+**GNU GPLv3** altında lisanslanmıştır.
+Daha fazla bilgi için [`LICENSE`](./LICENSE) sayfasına bakın.
