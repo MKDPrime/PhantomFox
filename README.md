@@ -35,9 +35,9 @@ Optional enhancements for advanced users. Includes:
 
 ## 🔧 How to Use
 
-1. Download `phantomfox-base.user.js`
+1. Download `phantomfox.user.js`
 2. Place it in your Firefox profile directory (as `user.js`)
-3. *(Optional)* Download and append `phantomfox-extended.user.js` after the base config
+3. *(Optional)* Download and append `phantomwolf.user.js` after the base config
 4. Restart Firefox
 
 > You can find your profile folder here:  
