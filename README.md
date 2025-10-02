@@ -17,6 +17,11 @@ PhantomFox disables telemetry, Firefox Sync, tracking features, and adds several
 
 ---
 
+## ❤️ PhantomFox supports all Firefox based browsers
+Yes, you heard right, PhantomFox user.js works on all Firefox-based browsers! It works correctly on all Firefox-based browsers such as Zen, LibreWolf, and WaterFox. My goal here is to achieve a much more user-friendly experience. You can also apply the following download steps to your own Firefox-based browser.
+
+---
+
 ## 📥 Installation
 
 ### 1. Download the `user.js`
