@@ -1,59 +1,96 @@
-# PhantomFox
+# PhantomFox user.js
 
-PhantomFox is a modular `user.js` configuration designed to balance **privacy**, **performance**, and **cross-browser compatibility** across Firefox and its forks.
+A minimalist but powerful **`user.js` configuration** for Firefox.  
+Designed as a lightweight alternative to **Arkenfox** and **Betterfox**, focused on **privacy, security, and performance** without breaking usability.  
 
----
-
-## 🧱 Modular Structure
-
-PhantomFox is now split into **two modular user.js files** for broader compatibility and flexibility:
-
-### 🔹 `phantomfox.user.js`
-The **core configuration** file. It includes privacy, security, and performance tweaks that are compatible with:
-
-- Firefox
-- LibreWolf
-- Waterfox
-- Mull
-- Any Firefox-based browser
-
-**Recommended for all users.**
+PhantomFox disables telemetry, Firefox Sync, tracking features, and adds several performance optimizations — while keeping important protections (like Safe Browsing) enabled.  
 
 ---
 
-### 🔸 `phantomwolf.user.js`
-Optional enhancements for advanced users. Includes:
-
-- Extra telemetry blocking
-- Strict network and DNS tweaks
-- Experimental isolation settings
-
-**Best for hardened setups (e.g., LibreWolf, Waterfox).**  
-⚠️ May slightly reduce site compatibility.
+## ✨ Features
+- Works on **Linux, macOS, and Windows**  
+- **Privacy-first**: disables telemetry, Sync, WebRTC leaks, geolocation, battery API, and more  
+- **Performance tweaks**: hardware acceleration, optimized connections, WebRender  
+- **Minimal startup**: Firefox opens with `about:blank` for speed and focus  
+- **Security**: Safe Browsing (malware & phishing protection) stays enabled  
+- Easy to **update with a single terminal command**  
 
 ---
 
-## 🔧 How to Use
+## 📥 Installation
 
-1. Download `phantomfox.user.js`
-2. Place it in your Firefox profile directory (as `user.js`)
-3. *(Optional)* Download and append `phantomwolf.user.js` after the base config
-4. Restart Firefox
+### 1. Download the `user.js`
+Clone this repository or just download the `user.js` file:
 
-> You can find your profile folder here:  
-> `about:support → Profile Folder → Open Folder`
+```bash
+git clone https://github.com/YOUR-USERNAME/PhantomFox.git
+cd PhantomFox
+```
+
+Or download manually: [user.js](./user.js)
 
 ---
 
-## 📌 Version
+### 2. Locate Your Firefox Profile
+Find your profile folder:
 
-Current version: `v1.1`  
-Check the [Releases](https://github.com/MKDPrime/PhantomFox/releases) page for changelog and updates.
+- **Linux**: `~/.mozilla/firefox/xxxxxxxx.default-release/`
+- **macOS**: `~/Library/Application Support/Firefox/Profiles/xxxxxxxx.default-release/`
+- **Windows**: `%APPDATA%\Mozilla\Firefox\Profiles\xxxxxxxx.default-release\`
+
+Replace `xxxxxxxx.default-release` with your actual profile name.
+
+---
+
+### 3. Copy `user.js` into Profile
+```bash
+cp user.js ~/.mozilla/firefox/xxxxxxxx.default-release/
+```
+
+For macOS:
+```bash
+cp user.js ~/Library/Application\ Support/Firefox/Profiles/xxxxxxxx.default-release/
+```
+
+For Windows (PowerShell):
+```powershell
+copy user.js "$env:APPDATA\Mozilla\Firefox\Profiles\xxxxxxxx.default-release\"
+```
+
+Restart Firefox. Done ✅
+
+---
+
+## 🔄 Updating
+
+To update PhantomFox, just run:
+
+```bash
+cd PhantomFox
+git pull
+cp user.js <your-firefox-profile-folder>/
+```
+
+You always stay on the latest version with **one command**.
+
+---
+
+## 📌 Why PhantomFox?
+
+Unlike Arkenfox (huge, complex configs) and Betterfox (performance-heavy tweaks), **PhantomFox is simple**:
+- Not hundreds of prefs, just the essentials
+- Focused on **real-world privacy & security**
+- Works **out of the box** — no constant tweaking required
+
+---
+
+## 📝 Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md) for version history.
 
 ---
 
 ## 📜 License
 
-Licensed under the **GNU GPLv3**.  
-See [`LICENSE`](./LICENSE) for more information.
-
+This project is licensed under the **GNU General Public License v3.0**.  
+See the LICENSE file for details.
