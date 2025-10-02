@@ -23,7 +23,7 @@ PhantomFox disables telemetry, Firefox Sync, tracking features, and adds several
 Clone this repository or just download the `user.js` file:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/PhantomFox.git
+git clone https://github.com/MKDPrime/PhantomFox.git
 cd PhantomFox
 ```
 
